@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/golkity/calc_go/rpn/internal/http/handler"
+	"github.com/golkity/Calc_go/rpn/internal/http/handler"
 	"log"
 	"net/http"
 )

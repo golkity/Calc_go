@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"errors"
-	"github.com/golkity/calc_go/internal/Errors"
-	"github.com/golkity/calc_go/internal/calc"
+	"github.com/golkity/Calc_go/internal/Errors"
+	"github.com/golkity/Calc_go/internal/calc"
 	"net/http"
 )
 

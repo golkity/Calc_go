@@ -1,7 +1,7 @@
 package calc
 
 import (
-	"github.com/golkity/calc_go/internal/Errors"
+	"github.com/golkity/Calc_go/rpn/Errors"
 	"strconv"
 	"strings"
 )
