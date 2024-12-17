@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"errors"
-	"github.com/golkity/Calc_go/internal/Errors"
-	"github.com/golkity/Calc_go/internal/calc"
+	"github.com/golkity/Calc_go/rpn/Errors"
+	"github.com/golkity/Calc_go/rpn/calc"
 	"net/http"
 )
 
@@ -24,7 +24,6 @@ func CalculateHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var req CalculateRequest
-	defer r.Body.Close()
 	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
 		http.Error(w, "Invalid JSON format", http.StatusBadRequest)
 		return

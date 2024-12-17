@@ -18,4 +18,7 @@ var (
 
 	//FOR LOAD JSON
 	ErrLoafJson = errors.New("Failed to parse JSON")
+
+	//FOR LOGGER
+	ErrInvalidPrefix = errors.New("invalid prefixes configuration")
 )
